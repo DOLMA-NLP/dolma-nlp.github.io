@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<div class="row g-5 mb-5">
+  <div class="col-md-6">
+    <!-- <h3 class="fw-bold">Research</h3> -->
+    {{ content }}
+  </div>
+  <div class="col-md-6">
+  	<figure class="figure">
+  		<img src="{{ site.github.url }}/assets/img/ME_languages.png" alt="Middle Eastern Languages" width="100%">
+  		<figcaption class="figure-caption">Language diversity in the Middle East (<a href="https://www.reddit.com/r/LinguisticMaps/comments/z9ge64/languages_of_the_middle_east_from_the_national/" target="_blank">source</a>).</figcaption>
+	</figure>
+  </div>
+</div>
+
+{% include publications.html %}
+
+<div class="row g-5 mb-5">
+  <div class="col-md-12">
+    <h3 class="fw-bold border-bottom pb-3 mb-5">Updates</h3>
+    <ul>
+    	<li>August 1st, 2024: Our website is live!</li>
+    </ul>
+<!--     {% for post in site.posts %}
+      <p><a href="{{ site.github.url }}/{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %-d, %Y" }}</p>
+    {% endfor %} -->
+  </div>
+</div>

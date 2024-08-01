@@ -1,0 +1,4 @@
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+title: "DOLMA-NLP" # the name of your site, e.g. ACME Corp.
+description: "<u><b>D</b></u>eveloping Techn<u><b>ol</b></u>ogies for <u><b>M</b></u>iddle Eastern L<u><b>a</b></u>nguages"
