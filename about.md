@@ -52,7 +52,7 @@ As an advocate for open-source research, we will ensure wide dissemination of ou
 This project relies on the contributions of enthusiastic language speakers. To ensure our work reaches and benefits the speaker communities, we'll collaborate with local organizations and use social media to share user-friendly guides and resources in the target languages. This multi-faceted dissemination strategy will maximize the impact and accessibility of our work.
 
 <div style="text-align: center;">
-        <img src="{{ site.github.url }}/assets/img/community.jpg" width="50%" alt="DOLMA-NLP is community-driven">
+        <img src="{{ site.github.url }}/assets/img/community.png" width="50%" alt="DOLMA-NLP is community-driven">
 </div>
 
 
