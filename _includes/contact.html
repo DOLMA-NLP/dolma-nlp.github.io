@@ -2,19 +2,92 @@
   <div>
     <h3 class="fw-bold border-bottom pb-3 mb-5">Contact</h3>
     {% for contact in site.data.settings.contacts %}
-   <!--  <div class="row g-5 mb-5">
+    <div class="row g-5 mb-5">
       <div class="col-md-6">
         <h4>{{ contact.name }}</h4>
-        <p>{{ contact.title }} | {{ contact.department }}</p>
-        <p>{{ contact.institution }} | {{ contact.institution_address }}</p>
-        <p>Phone: {{ contact.phone }}</p>
-        <p>Email: {{ contact.email }}</p>
-        <p>Office: {{ contact.office }}</p>
+        <p>{{ contact.department }}</p>
+        <p>{{ contact.institution }}</p>
+        <p>{{ contact.institution_address }}</p>
+        <p>{{ contact.institution_address }}</p>
+        <ul>
+	        <li>Email: <a href="mailto:{{ contact.email }}">{{ contact.email }}</a></li>
+	        <li><a href href="https://t.me/+qibLbXbnp-05NWQ0" target="_blank">DOLMA-NLP on Telegram</a></li>
+	        <li><a href href="https://github.com/DOLMA-NLP" target="_blank">DOLMA-NLP on GitHub</a></li>
+	        <li><a href href="https://x.com/sina_ahm" target="_blank">Twitter (X)</a></li>
+    	</ul>
       </div>
       <div class="col-md-6">
-        <img src="{{ site.github.url }}/{{ contact.image }}" alt="Contact" width="100%">
+	        <h2>Contact Us</h2>
+	        <form id="contactForm">
+	            <div class="mb-3">
+	                <label for="name" class="form-label">Name</label>
+	                <input type="text" class="form-control" id="name" required>
+	            </div>
+	            <div class="mb-3">
+	                <label for="email" class="form-label">Email</label>
+	                <input type="email" class="form-control" id="email" required>
+	            </div>
+	            <div class="mb-3">
+	                <label for="language" class="form-label">Language of Interest</label>
+	                <select class="form-select" id="language" required>
+	                    <option value="Other">Other</option>
+						<option value="Gilaki">Gilaki</option>
+						<option value="Southern-Kurdish">Southern Kurdish</option>
+						<option value="Gorani">Gorani</option>
+						<option value="Laki">Laki</option>
+						<option value="Luri">Luri</option>
+						<option value="Mazanderani">Mazanderani</option>
+						<option value="Talysh">Talysh</option>
+						<option value="Zazaki">Zazaki</option>
+	                </select>
+	            </div>
+	            <div class="mb-3">
+	                <label for="message" class="form-label">Message</label>
+	                <textarea class="form-control" id="message" rows="4" required></textarea>
+	            </div>
+	            <button type="submit" class="btn btn-primary">Send Message</button>
+	        </form>
+
       </div>
-    </div> -->
+    </div>
     {% endfor %}
   </div>
 </div>
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+
+<script type="text/javascript">
+    emailjs.init('S-X2auQz-uGfcwLax');
+
+    document.getElementById('contactForm').addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent the default form submission
+
+        // Collect form data
+        var name = document.getElementById('name').value;
+        var email = document.getElementById('email').value;
+        var language = document.getElementById('language').value;
+        var message = document.getElementById('message').value;
+
+        // Create a template parameters object
+        var templateParams = {
+            from_name: name,
+            from_email: email,
+            language: language,
+            message: message
+        };
+
+        // Send the email using EmailJS
+        emailjs.send("service_ld4fkhi","template_tvjqg9i", templateParams)
+            .then(function(response) {
+                alert('Message sent successfully!', response.status, response.text);
+            }, function(error) {
+                alert('Failed to send the message.', error);
+            });
+
+        // Clear the form
+        document.getElementById('contactForm').reset();
+    });
+</script>
+

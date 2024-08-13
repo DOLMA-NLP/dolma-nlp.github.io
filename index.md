@@ -14,5 +14,7 @@ The western part of Asia, known as the <a href="https://en.wikipedia.org/wiki/Mi
 <p align="justify">
 Our project focuses on creating parallel corpora and developing language technology for several languages in the Middle East, such as Zazaki, Gorani, Southern Kurdish, Mazanderani, Gilaki, Laki, and Luri. These languages, with speaker populations ranging from 250,000 to 5 million, represent a crucial yet underserved linguistic group. By developing resources for these languages, we can catalyze progress in language technology and machine translation, addressing a critical gap in the region's linguistic landscape.
 <br>
+<br>
+
 DOLMA stands for "<u><b>D</b></u>eveloping Techn<u><b>ol</b></u>ogies for <u><b>M</b></u>iddle Eastern L<u><b>a</b></u>nguages". While it shares its name with the delicious <a href="https://en.wikipedia.org/wiki/Dolma" target="_blank">stuffed grape leaves dish</a>, our DOLMA is filled with <b>passion and enthusiasm for language digitalization</b>, as well as <b>respect and love for language communities across the Middle East</b>. Our mission transcends ethnic differences and geopolitical divisions, uniting the region through the power of language technology.
 </p>

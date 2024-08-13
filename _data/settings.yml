@@ -5,7 +5,7 @@ menu:
 # - {name: 'People', url: '/people'}
 - {name: 'Publications', url: '/publications'}
 # - {name: 'cv', url: '/cv'}
-# - {name: 'Contact', url: '/contact'}
+- {name: 'Contact', url: '/contact'}
 
 people:
 - {name: 'Primary Investigator', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/primary-investigator.jpg', url: 'primary-investigator'}
@@ -27,8 +27,8 @@ social:
 - {icon: 'twitter', link: 'https://x.com/sina_ahm'}
 - {icon: 'telegram', link: 'https://t.me/+2Lez5NisiNhmNmU0'}
 - {icon: 'envelope', link: 'mailto:sinaahmadi.yae@gmail.com'}
-# - {icon: 'instagram', link: 'https://instagram.com/paululele'}
-# - {icon: 'linkedin', link: 'https://linkedin.com/in/lenpaul'}
+# - {icon: 'instagram', link: ''}
+# - {icon: 'linkedin', link: ''}
 
 contacts:
-- {name: 'Dr. Academia', title: 'Professor', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/contact.jpg'}
+- {name: '', title: '', department: '', institution: '', institution_address: '', phone: '(000) 000-0000', email: 'sinaahmadi.yae@gmail.com', office: '', image: ''}
