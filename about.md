@@ -35,14 +35,14 @@ By developing digital resources and tools, we'll **enable these communities to u
 
 ### Objectives
 ##### 1. Solving problems
-We plan to leverage the created resources to expand NLP applications for the target languages. Most importantly, this includes developing **machine translation**, **language identification models** and also, **text transliteration** tools. To measure impact, we'll track the adoption of our tools within the speaker communities and gather feedback to guide future developments. Long-term goals include creating comprehensive language learning apps and contributing to digital language documentation efforts. 
+We plan to leverage the created resources to expand NLP applications for the target languages. Most importantly, this includes developing **machine translation**, **language identification models** and also, **text transliteration** tools. To measure impact, we'll track the adoption of our tools within the speaker communities and gather feedback to guide future developments. Long-term goals include creating comprehensive language processing applications and contributing to digital language documentation efforts. 
 
 <div style="text-align: center;">
         <img src="{{ site.github.url }}/assets/img/MT_NLP.png" width="40%" alt="DOLMA-NLP solves language technology problems">
 </div>
 
 ##### 2. Open-source development
-As an advocate for open-source research, we will ensure wide dissemination of our project outcomes. All resources, including corpora, tools, and models, will be released on GitHub. This approach allows for easy access and encourages further development by the research community. 
+As an advocate for open-source research, I will ensure wide dissemination of our project outcomes. All resources, including corpora, tools, and models, will be released on GitHub. This approach allows for easy access and encourages further development by the research community. 
 
 <div style="text-align: center;">
         <img src="{{ site.github.url }}/assets/img/open-source.png" width="25%" alt="DOLMA-NLP is open source">
